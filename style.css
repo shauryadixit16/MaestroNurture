@@ -119,7 +119,7 @@ a:hover {
 }
 @media (min-width: 990px) {
   #carousel img {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 60%;
     height: 450px;
   }
