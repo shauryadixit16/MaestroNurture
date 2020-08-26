@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Theme</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <!-- NAVBAR -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top text-dark"
+      id="main-nav"
+      style="background-color: rgba(0, 0, 0, 0.795);"
+    >
+      <div class="container">
+        <a
+          id="top"
+          href="#home"
+          class="navbar-brand animate__animated animate__backInUp"
+        >
+          <img src="./img/Logo.png" height="55px" width="55px" alt="" />
+          MAESTRO</a
+        >
+        <button
+          class="navbar-toggler design"
+          data-toggle="collapse"
+          data-target="#nav"
+        >
+          <i class="fas fa-bars" style="color: #72c0ff;"></i>
+        </button>
+        <div id="nav" class="navbar-collapse collapse">
+          <ul class="navbar-nav ml-auto mb-sm-3">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#iit" class="nav-link">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#package" class="nav-link">Package</a>
+            </li>
+            <li class="nav-item">
+              <a href="#mentor" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact1" class="nav-link d-md-none">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link d-none d-md-block">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <div id="main" class="mx-3 text-center mb-5" style="margin-top: 110px;">
+      <div class="container">
+        <header>
+          <h3>
+            Make your
+            <span style="font-weight: 900; line-height: 25px; color: #72c0ff;"
+              >JEE/NEET</span
+            >
+            preparations easy with
+            <p
+              style="
+                font-weight: 900;
+                line-height: 25px;
+                color: #72c0ff;
+                margin-top: 8px;
+              "
+            >
+              Personal Mentorship.
+            </p>
+          </h3>
+        </header>
+
+        <!-- CAROUSEL -->
+        <div
+          id="carousel"
+          class="carousel slide mt-4 mt-lg-1"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/how-to-crack-iit-jee.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/Exam-Tips.jpeg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <p
+          class="mt-5"
+          style="
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none solid rgb(126, 126, 126);
+            line-height: 25px;
+            color: rgb(126, 126, 126);
+          "
+        >
+          Work 1:1 with your personal mentor and devise a customized plan
+          according to your preparation level.
+        </p>
+
+        <a
+          href="#package"
+          class="btn text-white px-5"
+          style="
+            font-weight: 700;
+            background-color: #72c0ff;
+            box-shadow: 1px 1px 4px #72c0ff54;
+          "
+          >Enroll Now!</a
+        >
+        <!-- HOW WILL WE HELP YOU -->
+        <div class="card mt-5" id="help">
+          <div style="background-color: rgba(0, 0, 0, 0.788);">
+            <h4
+              style="font-weight: bold; color: white; word-spacing: 3px;"
+              class="p-3"
+            >
+              How will we help you ???
+            </h4>
+          </div>
+          <p
+            class="text-center p-3"
+            style="font-size: 15px; font-weight: bolder;"
+          >
+            The IIT JEE/NEET mentorship program is a telephonic/ whatsapp and
+            video call support program wherein the support number will be
+            provided to you and you can call and speak to a mentor. You can
+            speak to your mentor on a daily basis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- REASON WHY CHOOSE US -->
+    <div id="reason">
+      <div class="container text-center">
+        <h5
+          class="mt-5 mb-3"
+          style="
+            font-weight: 900;
+            word-spacing: 8px;
+            letter-spacing: 7px;
+            color: #72c0ff;
+          "
+        >
+          MAESTRO ADVANTAGES
+        </h5>
+        <h1>Reason <span style="font-weight: 700;">Why Choose Us.</span></h1>
+      </div>
+    </div>
+    <!-- img -->
+    <div class="col-12 col-md-8 offset-md-2 mt-3">
+      <img
+        src="./img/sheldon-169hero-compthink-shutterstock.jpg"
+        width="100%"
+        alt=""
+      />
+    </div>
+
+    <!-- ACCORDIAN -->
+    <div id="accordian" class="py-5 bg-light">
+      <div class="card text-center">
+        <div class="card-header">
+          <h1
+            href="#collapse1"
+            data-toggle="collapse"
+            data-parent="#accordian"
+            style="font-size: 2rem;"
+          >
+            <i class="fas fa-arrow-circle-down"></i>Personal Mentor
+          </h1>
+        </div>
+        <div class="card-body show collapse" id="collapse1">
+          <p class="lead py-3">
+            Pick a personal <span>IITian</span> Mentor and get benefited through
+            your preparation journey.Mentor will guide you personally in your
+            preparation.
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h1
+            href="#collapse4"
+            data-toggle="collapse"
+            data-parent="#accordian"
+            style="font-size: 2rem;"
+          >
+            <i class="fas fa-arrow-circle-down"></i>Unlimited one-on-one chat
+          </h1>
+        </div>
+        <div class="card-body show collapse" id="collapse4">
+          <p class="lead py-3">
+            Expert advice on the go.Chat/Call yout Mentor anytime/anywhere.
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h1
+            href="#collapse5"
+            data-toggle="collapse"
+            data-parent="#accordian"
+            style="font-size: 2rem;"
+          >
+            <i class="fas fa-arrow-circle-down"></i>Study Plan
+          </h1>
+        </div>
+        <div class="card-body show collapse" id="collapse5">
+          <p class="lead py-3">
+            Your Mentor will set your daily tasks.Accurate study planner & will
+            give you assignments.Your task and planner will be tracked by your
+            mentor.
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h1
+            href="#collapse2"
+            data-toggle="collapse"
+            data-parent="#accordian"
+            style="font-size: 2rem;"
+          >
+            <i class="fas fa-arrow-circle-down"></i>Consultations Calls
+          </h1>
+        </div>
+        <div class="card-body show collapse" id="collapse2">
+          <p class="lead py-3">
+            Consultation calls with your Mentor at your convenience will be
+            there to recap the benefits of one-to-one coaching and expert
+            advice.
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h1
+            href="#collapse3"
+            data-toggle="collapse"
+            data-parent="#accordian"
+            style="font-size: 2rem;"
+          >
+            <i class="fas fa-arrow-circle-down"></i>Performance Improvement
+          </h1>
+        </div>
+        <div class="card-body show collapse" id="collapse3">
+          <p class="lead py-3">
+            Your mentor will work on your Weakness,on your mistakes and way of
+            learning and will guide you personally how to improve your
+            Performance.
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <h1
+            href="#collapse6"
+            data-toggle="collapse"
+            data-parent="#accordian"
+            style="font-size: 2rem;"
+          >
+            <i class="fas fa-arrow-circle-down"></i>Unlimited
+          </h1>
+        </div>
+        <div class="card-body show collapse" id="collapse6">
+          <p class="lead py-3">
+            Connect with your <span>IITian</span> Mentors and get your doubts
+            cleared instantly.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- USP OF IIT-JEE/NEET -->
+    <div id="USP">
+      <div class="container">
+        <div>
+          <h2 style="font-weight: 800;" class="my-3 text-center">
+            Here are the USP of IIT-JEE/NEET Mentorship
+          </h2>
+          <h4
+            style="
+              background-color: #72c0ff;
+              border-radius: 50%;
+              font-weight: 800;
+              letter-spacing: 1px;
+            "
+            class="py-3 text-white text-center"
+          >
+            Features
+          </h4>
+          <div id="features" class="my-4">
+            <div class="d-flex">
+              <i class="fas fa-check-square mr-3" style="color: #72c0ff;"></i>
+              <p>
+                Your IIT mentor can help you with effective learning techniques
+                to score more
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="fas fa-check-square mr-3" style="color: #72c0ff;"></i>
+              <p>
+                Understand what resources to use for preparation
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="fas fa-check-square mr-3" style="color: #72c0ff;"></i>
+              <p>
+                Get insights about what had helped them the most
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="fas fa-check-square mr-3" style="color: #72c0ff;"></i>
+              <p>
+                Learn from their strategies and mistakes
+              </p>
+            </div>
+            <div class="d-flex">
+              <i class="fas fa-check-square mr-3" style="color: #72c0ff;"></i>
+              <p>
+                Speak to the mentor on how to use time effectively
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOP MENTORS -->
+    <!-- IIT -->
+    <div class="py-4 mb-3" id="iit">
+      <div class="container">
+        <h1 class="mb-5 text-center">Our Mentors(IIT)</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="card">
+              <div class="d-flex d-lg-block">
+                <div style="flex: 6;">
+                  <img
+                    src="./img/IIT/Bhanu.jpeg"
+                    class="img-fluid ml-2 mt-2 img-fluid rounded-circle"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;" id="bhanu">
+                  <h5>Bhanu Garg</h5>
+                  <p class="text-muted">B.Tech,<span>IIT Bombay</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="card">
+              <div class="d-flex d-lg-block">
+                <div style="flex: 6;">
+                  <img
+                    id="bhavesh"
+                    src="./img/IIT/Bhavesh.jpeg"
+                    class="img-fluid ml-2 my-2 my-lg-0 img-fluid rounded-circle"
+                    width="70px"
+                    height="80px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;">
+                  <h5>Bhavesh Singh</h5>
+                  <p class="text-muted">B.Tech,<span>IIT Delhi</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="card">
+              <div class="d-flex d-lg-block">
+                <div style="flex: 6;">
+                  <img
+                    src="./img/IIT/Vimal.jpeg"
+                    class="img-fluid ml-2 mt-2 img-fluid rounded-circle"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;" id="vimal">
+                  <h5>Vimal Kumar</h5>
+                  <p class="text-muted">B.Tech,<span>IIT Dhanbad</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="card">
+              <div class="d-flex d-lg-block">
+                <div style="flex: 6;">
+                  <img
+                  id="gaurav"
+                    src="./img/IIT/Gaurav.jpeg"
+                    class="img-fluid ml-2 my-2 my-lg-0 img-fluid rounded-circle"
+                    width="90px"
+                    height="100px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;">
+                  <h5>Gaurav Jindal</h5>
+                  <p class="text-muted">B.Tech,<span>NSIT</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEET -->
+
+    <div class="py-4 mb-3" id="neet">
+      <div class="container">
+        <h1 class="mb-5 text-center">Our Mentors(NEET)</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="card">
+              <div class="d-flex d-md-block">
+                <div style="flex: 6;">
+                  <img
+                    id="salman"
+                    src="./img/NEET/Salman.jpeg"
+                    class="img-fluid ml-2 mt-2 img-fluid rounded-circle"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;" id="bhanu">
+                  <h5>Dr. Salman</h5>
+                  <p class="text-muted">MBBS,<span>AIIMS</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="card">
+              <div class="d-flex d-md-block">
+                <div style="flex: 6;">
+                  <img
+                    id="nitish"
+                    src="./img/NEET/Nitish.jpeg"
+                    class="img-fluid ml-2 my-2 my-lg-0 img-fluid rounded-circle"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;">
+                  <h5>Dr. Nitish Gupta</h5>
+                  <p class="text-muted">MBBS,<span>VMMC Delhi</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 text-center">
+            <div class="card">
+              <div class="d-flex d-md-block">
+                <div style="flex: 6;">
+                  <img
+                    src="./img/NEET/Nilay.jpeg"
+                    class="img-fluid ml-2 mt-2 img-fluid rounded-circle"
+                    width="140px"
+                    height="100px"
+                    alt=""
+                  />
+                </div>
+                <div style="flex: 6; padding-top: 30px;" id="vimal">
+                  <h5>Dr. Nilay</h5>
+                  <p class="text-muted">MBBS,<span>UCMS Delhi</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUR PACKAGE -->
+
+    <div id="package">
+      <h1
+        class="text-center mb-5"
+        style="
+          font-weight: bolder;
+          letter-spacing: 1px;
+          color: #72c0ff;
+          font-family: 'Montserrat', sans-serif;
+        "
+      >
+        Our Packages
+      </h1>
+      <div class="row my-4 justify-content-between mx-2 mx-lg-5">
+        <div class="col-md-4 col-lg-3 mb-4 text-center">
+          <div class="card">
+            <div class="card-header bg-dark text-white">
+              <h3>11th</h3>
+            </div>
+            <div class="card-body">
+              <div class="card-title"><h4>
+                <strong>2000 <span style="font-size: 20px;">Rs/month</span></strong>
+              </h4></div>
+
+              <ul class="list-group mb-4">
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Personal IITian Mentor
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Daily Task
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Doubt Solving
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Test Analysis
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Motivation & Counselling
+                </li>
+              </ul>
+
+              <form>
+                <script
+                  src="https://cdn.razorpay.com/static/widget/payment-button.js"
+                  data-payment_button_id="pl_FUyWrWdXndIwui"
+                ></script>
+              </form>
+              <!-- <div class="card-footer mt-2 py-3" style="font-weight: bolder;">
+                1 Year Plan
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 mb-4 text-center">
+          <div class="card">
+            <div class="card-header bg-dark text-white">
+              <h3>12th</h3>
+            </div>
+            <div class="card-body">
+              <div class="card-title"><h4>
+                <strong>2000 <span style="font-size: 20px;">Rs/month</span></strong>
+              </h4></div>
+
+              <ul class="list-group mb-4">
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Personal IITian Mentor
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Daily Task
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Doubt Solving
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Test Analysis
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Motivation & Counselling
+                </li>
+              </ul>
+              <form>
+                <script
+                  src="https://cdn.razorpay.com/static/widget/payment-button.js"
+                  data-payment_button_id="pl_FV3BbqHBilactl"
+                ></script>
+              </form>
+              <!-- <div class="card-footer mt-2 py-3" style="font-weight: bolder;">
+                1 Year Plan
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 mb-4 text-center">
+          <div class="card">
+            <div class="card-header bg-dark text-white">
+              <h3>Dropper</h3>
+            </div>
+            <div class="card-body">
+              <div class="card-title"><h4>
+                <strong>2000 <span style="font-size: 20px;">Rs/month</span></strong>
+              </h4></div>
+
+              <ul class="list-group mb-4">
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Personal IITian Mentor
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Daily Task
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Doubt Solving
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Test Analysis
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check fa-2x"></i>Motivation & Counselling
+                </li>
+              </ul>
+              <form>
+                <script
+                  src="https://cdn.razorpay.com/static/widget/payment-button.js"
+                  data-payment_button_id="pl_FV3KiWrwmujid5"
+                ></script>
+              </form>
+              <!-- <div class="card-footer mt-2 py-3" style="font-weight: bolder;">
+                1 Year Plan
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Get an IITian Mentor  -->
+    <div id="mentor" class="mx-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img src="./img/Screen Shot 2020-08-23 at 4.39.37 PM.png" alt="" />
+          </div>
+          <div class="col-12 col-lg-6 mt-lg-5" id="content">
+            <h5
+              class="mt-lg-3"
+              style="color: #72c0ff; font-weight: 700; letter-spacing: 3px;"
+            >
+              Get an IITian Mentor
+            </h5>
+            <h2 class="my-lg-2">But Why?</h2>
+            <p>
+              Most of the students study a lot and yet will not be able to score
+              good marks in JEE/NEET. While a lot of students study smartly and
+              score better than you every time.
+            </p>
+            <p>
+              Our IITian Mentors are going to share with you techniques to study
+              smartly. They will not ask you to study less, but will guide you
+              how and what to study to get maximum score.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About us -->
+    <div id="about" class="mt-4 text-left">
+      <div class="container">
+        <h2 style="color: #72c0ff; font-weight: 600;">
+          About Us
+        </h2>
+        <p>
+          We at <span style="font-weight: 900;">MAESTRO</span> are a group of
+          IITians who aim to help the budding JEE/NEET aspirants by dedicatedly
+          guiding them on the right path and preparing them for cracking the
+          demanding exam.
+        </p>
+        <p>
+          Having gone through the journey ourselves, we are well aware of the
+          challenges and difficulties a student faces, and can not only
+          empathize with your cause, but also provide ways of overcoming your
+          obstacles and getting ahead of any failures you encounter on the way.
+          We intend to do so by providing you with a schedule which has been
+          individualized to best suit your needs, and a mentor who'll constantly
+          be there to check upon you and guide you along the way. Our mentors
+          have deep knowledge how student psychology works in JEE/NEET exam as
+          they have already faced and overcome that.
+        </p>
+        <p>
+          We hope to make your mentor your personal JEE/NEET friend, available
+          to you at all times, whenever you're in need of any guidance or
+          motivation. We aim to achieve this through
+          <span style="font-weight: 900;">MAESTRO</span>.
+        </p>
+      </div>
+    </div>
+
+
+
+    <!--Why Maestro  -->
+    <div id="why">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img src="./img/Screen Shot 2020-08-23 at 4.42.31 PM.png" alt="" />
+          </div>
+          <div class="col-12 col-lg-6 mt-lg-5">
+            <h2>Why Maestro?</h2>
+            <p class="lead">
+              We believe that every individual has the ability to crack
+              JEE/NEET. The only issue most students face is producing their
+              maximum. We fetch the maximum efficiency of students. This is done
+              through personal mentorship to aspirants.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testinomials -->
+    <section id="faq" class="my-4" style="font-family: 'Roboto', sans-serif;">
+      <div class="container text-center text-white">
+        <h1 class="text-center mb-3" style="color: #72c0ff;       font-family: 'Montserrat', sans-serif;"> Testimonials<i class="fas fa-angle-double-down ml-1"></i></h3>
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            
+                <div class=" text-dark">
+                  <a href="#collapseOne" data-toggle="collapse" >
+                     <div class=" d-flex">
+                      <img src="./img/testimonial/WhatsApp Image 2020-08-24 at 5.35.10 PM.jpeg" alt="" class="img-fluid rounded-circle "
+                      width="50px">
+                      <h5 class="ml-3 ml-md-1 ml-lg-3 mt-3 text-dark">
+                        
+                         Saatvik Garg
+                         <i class="fas fa-arrow-circle-down"></i>
+                        
+                      </h5>
+                    </div>
+                  </a>
+                    <div id="collapseOne" class="collapse">
+                      <div class="card-body">
+                        Even after being a coaching student, it was hard for me to get
+                        connected with my teachers but I can’t deny that I always
+                        wanted a mentor who could guide me throughout my IIT JEE
+                        journey. Gratefully, I came across MAESTRONURTURE. My mentors
+                        are extremely helpful and motivating. They analyze my
+                        preparation and provide me with the best schedule according to
+                        my strength and weakness and strategy to improve the same.
+                        They ask for daily updates for the assigned task. I can see a
+                        positive slope in my coaching tests. I am 100% sure that with
+                        their guidance I will be able to secure a good rank in IIT
+                        JEE.
+                      </div>
+                    </div>
+                  </div>
+            
+          </div>
+          <div class="col-md-4 mb-3">
+            
+            <div class=" text-dark">
+              <a href="#collapseTwo" data-toggle="collapse" >
+                 <div class=" d-flex">
+                  <img src="./img/testimonial/WhatsApp Image 2020-08-24 at 5.36.02 PM.jpeg" alt="" class="img-fluid rounded-circle "
+                  id="anu">
+                  <h5 class="ml-3 mt-3 text-dark">
+                    
+                    Anu
+                    <i class="fas fa-arrow-circle-down"></i>
+                  </h5>
+                </div>
+              </a>
+                <div id="collapseTwo" class="collapse">
+                  <div class="card-body">
+                    A tremendous help to my son, this place is like a heaven for
+                    education. I always wanted that someone can mentor and give
+                    guidance to my son. No school, coaching or other platform is
+                    doing this. Thankyou MAESTRONURTURE for launching this special
+                    Mentorship Program.
+                  </div>
+                </div>
+              </div>
+        
+      </div>
+      <div class="col-md-4">
+            
+        <div class="  text-dark">
+          <a href="#collapseThree" data-toggle="collapse" >
+             <div class=" d-flex">
+              <img src="./img/testimonial/WhatsApp Image 2020-08-25 at 7.07.57 PM.jpeg" alt="" class="img-fluid rounded-circle "
+              width="40px">
+              <h5 class="ml-3 mt-3 text-dark">
+       Hunar   <i class="fas fa-arrow-circle-down"></i>
+              </h5>
+            </div>
+          </a>
+            <div id="collapseThree" class="collapse">
+              <div class="card-body">
+                I am a medical student of coaching institute. During my 11 th
+                  class, in our coaching tests my friend and I used to score
+                  similar marks but in 12 th class, her marks increased by
+                  100-140. Because of her marks I was surprised. Then she told
+                  me that she is taking guidance from MAESTRONURTURE. So, I
+                  decided to join in as well. My mentor contacted me, analyzed
+                  my performance and started guiding me. Since last 2 months I
+                  am taking guidance from them and my marks has improved by
+                  50-70 and I am continuously improving. This guidance is really
+                  helpful for me. Thank you MAESTRO.
+              </div>
+            </div>
+          </div>
+    
+  </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <div
+      id="contact1"
+      class="pb-4 py-2 text-white d-md-none"
+      style="background-color: rgba(0, 0, 0, 0.836);"
+    >
+      <div class="container">
+        <h1
+          class="mb-3 text-center pb-1"
+          style="font-family: 'EB Garamond', serif;"
+        >
+          Contact Us
+        </h1>
+        <h5 style="font-size: 18px;">
+          <i class="fas fa-envelope mx-2"></i>
+          <span
+            ><a href="mailto:maestronurture@gmail.com"
+              >maestronurture@gmail.com</a
+            ></span
+          >
+        </h5>
+        <h5>
+          <i class="fas fa-phone mx-2"></i>
+          <span><a href="tel:7814969071">+91-7814969071</a></span>
+        </h5>
+        <h5 class="mb-3">
+          <i class="fas fa-map-marker-alt mx-2"></i>
+          <span>Gurgaon,India</span>
+        </h5>
+
+        <img
+          src="./img/Logo.png"
+          width="35%"
+          class="d-inline-block mt-3"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- contact for md and above -->
+    <div
+      id="contact2"
+      class="pb-4 py-2 text-white d-none d-md-block"
+      style="background-color: rgba(0, 0, 0, 0.829);"
+    >
+      <div class="container">
+        <h1
+          class="mb-3 text-left pb-1"
+          style="font-family: 'EB Garamond', serif; font-size: 60px;"
+        >
+          Contact Us
+        </h1>
+        <div class="d-flex">
+          <div class="col-10">
+            <h4 class="mt-3">
+              <i class="fas fa-envelope mx-2"></i>
+              <span
+                ><a href="mailto:maestronurture@gmail.com"
+                  >maestronurture@gmail.com</a
+                ></span
+              >
+            </h4>
+            <h4 class="my-3">
+              <i class="fas fa-phone mx-2"></i>
+              <span><a href="tel:7814969071">+91-7814969071</a></span>
+            </h4>
+            <h4 class="my-3">
+              <i class="fas fa-map-marker-alt mx-2"></i>
+              <span>Gurgaon,India</span>
+            </h4>
+          </div>
+          <div class="col mb-4">
+            <img
+              src="./img/Logo.png"
+              width="70%"
+              class="d-inline-block"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $('.carousel').carousel({
+        interval: 6000,
+        pause: 'hover',
+      });
+
+      $('body').scrollspy({ target: '#main-nav' });
+
+      $('#main-nav a').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html,body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            1000,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+      const help=document.getElementById('help');
+
+      help.addEventListener('hover',function(){
+        help.classList.add('animate_animated animate_flip')
+      })
+
+    </script>
+  </body>
+</html>

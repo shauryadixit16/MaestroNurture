@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&family=EB+Garamond:wght@500&display=swap');
+
+nav .design:focus {
+  outline: none;
+}
+.navbar-collapse {
+  padding-top: 30px;
+}
+nav .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  animation-duration: 1s;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgba(255, 255, 255, 0.918);
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+#help,
+#package .card {
+  border: 1px solid black;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.753);
+  transition-duration: 0.4s;
+}
+
+#USP p {
+  font-weight: bolder;
+}
+#mentor,
+#about h2 {
+  font-family: 'EB Garamond', serif;
+}
+#mentor #content p {
+  font-size: 22px;
+  color: rgb(102, 102, 102);
+  line-height: 35.2px;
+  font-weight: 600;
+  line-height: 33px;
+}
+#mentor img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#about p {
+  font-size: 16px;
+  line-height: 30.2px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.808);
+  font-family: 'Roboto', sans-serif;
+}
+#why img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#why h2 {
+  font-family: 'EB Garamond', serif;
+}
+#faq h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+#why p {
+  font-size: 20px;
+  color: rgb(102, 102, 102);
+  line-height: 33.2px;
+  font-weight: 600;
+  line-height: 33px;
+}
+a:hover {
+  color: #72c0ff;
+  text-decoration: none;
+}
+#contact h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+#package h3 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+#iit h5 {
+  font-weight: bold;
+}
+#iit .card {
+  border: none;
+  background-color: white;
+  margin-bottom: 20px;
+  transition-duration: 0.5s;
+}
+#iit .card:hover {
+  transform: scale(1.1);
+}
+
+#neet h5 {
+  font-weight: bold;
+}
+#neet .card {
+  border: none;
+  background-color: white;
+  margin-bottom: 30px;
+  transition-duration: 0.5s;
+}
+#neet .card:hover {
+  transform: scale(1.1);
+}
+#testimonial p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+#faq #anu {
+  width: 50px;
+}
+#faq a:hover {
+  color: white;
+}
+#package .card:hover {
+  transform: scale(1.03);
+}
+@media (min-width: 990px) {
+  #carousel img {
+    margin-top: 30px;
+    width: 80%;
+    height: 520px;
+  }
+  #about p {
+    font-size: 18px;
+    line-height: 32.2px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.808);
+    font-family: 'Roboto', sans-serif;
+  }
+  #mentor h5 {
+    font-size: 25px;
+  }
+  #mentor h2 {
+    font-size: 35px;
+  }
+  header h3 {
+    font-size: 38px;
+  }
+  header p {
+    margin-top: 10px;
+  }
+  nav .nav-item {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  nav #top {
+    font-size: 28 px;
+  }
+  nav #top #img {
+    height: 80px;
+    width: 80px;
+  }
+  main {
+    margin-top: 500px;
+  }
+  #help h4 {
+    font-size: 30px;
+  }
+  #iit img {
+    width: 150px;
+  }
+  #iit #bhavesh {
+    width: 110px;
+  }
+  #iit #gaurav {
+    width: 140px;
+  }
+  #iit h5 {
+    margin-top: 20px;
+  }
+  #iit #bhanu,
+  #vimal {
+    margin-top: 30px;
+  }
+
+  #neet img {
+    width: 170px;
+  }
+
+  #neet h5 {
+    margin-top: 20px;
+  }
+  #neet #salman {
+    width: 135px;
+  }
+  #neet #nitish {
+    width: 135px;
+  }
+  #faq #anu {
+    width: 75px;
+  }
+}
