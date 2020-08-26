@@ -4,7 +4,7 @@ nav .design:focus {
   outline: none;
 }
 .navbar-collapse {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 nav .navbar-brand {
   font-family: 'Montserrat', sans-serif;
@@ -23,7 +23,7 @@ a {
 #package .card {
   border: 1px solid black;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.753);
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 
 #USP p {
@@ -86,10 +86,10 @@ a:hover {
   border: none;
   background-color: white;
   margin-bottom: 20px;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 #iit .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 #neet h5 {
@@ -99,10 +99,10 @@ a:hover {
   border: none;
   background-color: white;
   margin-bottom: 30px;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 #neet .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 #testimonial p {
   font-size: 15px;
@@ -115,17 +115,17 @@ a:hover {
   color: white;
 }
 #package .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 @media (min-width: 990px) {
   #carousel img {
     margin-top: 30px;
-    width: 80%;
-    height: 520px;
+    width: 60%;
+    height: 450px;
   }
   #about p {
-    font-size: 18px;
-    line-height: 32.2px;
+    font-size: 17px;
+    line-height: 30.2px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.808);
     font-family: 'Roboto', sans-serif;
@@ -137,21 +137,21 @@ a:hover {
     font-size: 35px;
   }
   header h3 {
-    font-size: 38px;
+    font-size: 33px;
   }
   header p {
     margin-top: 10px;
   }
   nav .nav-item {
-    font-size: 20px;
-    margin-left: 15px;
+    font-size: 17px;
+    margin-left: 10px;
   }
   nav #top {
     font-size: 28 px;
   }
   nav #top #img {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
   }
   main {
     margin-top: 500px;
